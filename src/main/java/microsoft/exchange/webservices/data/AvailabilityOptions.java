@@ -79,7 +79,7 @@ public final class AvailabilityOptions {
 			writer.writeStartElement(XmlNamespace.Types,
 					XmlElementNames.FreeBusyViewOptions);
 
-			request.getTimeWindow().writeToXmlUnscopedDatesOnly(writer,
+			request.getTimeWindow().writeToXml(writer,
 					XmlElementNames.TimeWindow);
 
 			writer.writeElementValue(XmlNamespace.Types,
