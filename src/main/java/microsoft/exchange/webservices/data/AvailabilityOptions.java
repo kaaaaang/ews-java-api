@@ -15,7 +15,7 @@ import java.util.Date;
 public final class AvailabilityOptions {
 
 	/** The merged free busy interval. */
-	private int mergedFreeBusyInterval = 30;
+	private int mergedFreeBusyInterval = 15;
 
 	/** The requested free busy view. */
 	private FreeBusyViewType requestedFreeBusyView = FreeBusyViewType.Detailed;
